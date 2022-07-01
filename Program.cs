@@ -4,12 +4,19 @@
     {
         static void Main(string[] args)
         {
-            var player = new Player(100, 10);
-            var turtle = new Turtle(25, 5, 5);
-            var ork = new Ork(50, 10, 5);
-            Fight(player, turtle);
-            Fight(player, ork);
-            Fight(player, ork);
+            // Test code will run forever without further modification.
+            // Look at the task in the file ExtraTask.md
+            // =================================================================
+            // var player = new Player(100, 10);
+            // var ork = new Ork(200, 20, 10);
+            //
+            // bool playerIsDead = false;
+            // int turnNumber = 1;
+            // while (!playerIsDead)
+            // {
+            //     Console.WriteLine($"{turnNumber}. Turn");
+            //     Fight(player, ork);
+            // }
         }
         
         public static void Fight(IFight firstToStrike, IFight secondToStrike)
