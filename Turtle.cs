@@ -14,7 +14,7 @@ public class Turtle : GameObject
   public override void TakeDamage(int damageToTake)
   {
     int damageAfterDefence = Math.Abs(damageToTake - _defence);
-    Hp -= damageAfterDefence;
+    base.TakeDamage(damageAfterDefence);
   }
 
   public override string ToString()
